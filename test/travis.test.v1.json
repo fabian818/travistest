@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"_postman_id": "0be395e2-0f6f-42cb-8bc1-26e29a008ddd",
+			"_postman_id": "080f6b1e-128a-4918-895f-e57d0494e4e3",
 			"name": "test request",
 			"event": [
 				{
@@ -28,7 +28,17 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:8000/users/test/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"users",
+						"test",
+						""
+					]
 				}
 			},
 			"response": []
