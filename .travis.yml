@@ -11,4 +11,4 @@ install:
   - gunicorn travistest.wsgi --daemon
 # command to run tests
 script:
-  - newman test/travistest.v1.json
+  - newman test/travis.test.v1.json
