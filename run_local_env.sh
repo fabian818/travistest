@@ -3,8 +3,8 @@
 export ENV_HOST=127.0.0.1
 
 # SQL database variables
-export DATABASE_NAME=ubank_test_database
-export DATABASE_USER=ubank_user
-export DATABASE_PASSWORD=ubankpassword2018
+export DATABASE_NAME=travisdev
+export DATABASE_USER=devuser
+export DATABASE_PASSWORD=devpassword
 export DATABASE_HOST=localhost
 export DATABASE_PORT=3306
