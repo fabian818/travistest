@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d4573601-9cc3-43f1-a827-c655e59f0aa1",
+		"name": "travistest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "0be395e2-0f6f-42cb-8bc1-26e29a008ddd",
+			"name": "test request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "acd2bae4-13bb-4825-b0df-4cf812f6c7bd",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Your test name\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.msg).to.eql(\"travistest\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
