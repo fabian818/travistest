@@ -1,5 +1,7 @@
 from django.urls import include, path
 
+from users import views
+
 urlpatterns = [
-    path('users/', include('users.urls'))
+    path('test/', views.test),
 ]
